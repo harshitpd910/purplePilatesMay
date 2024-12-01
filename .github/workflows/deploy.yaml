@@ -3,7 +3,7 @@ name: Deploy to EC2
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Copy build folder to EC2
         run: |
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./build/ ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:${{ secrets.EC2_PATH }}
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./dist/ ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:${{ secrets.EC2_PATH }}
 
       - name: Run remote deployment script
         run: |
