@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <contact
     id='contact'
-    className='flex flex-col justify-center items-center sm:px-16 px-6 py-16  text-center  '
+    className='flex flex-col justify-center items-center sm:px-16 px-6 md:py-6 py-16  text-center  '
     >
         <h1 
         className='font-secondry text-[36px] mb-8'

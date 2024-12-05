@@ -24,7 +24,10 @@ const NavMobile = () => {
           <a href='#about'>About</a>
         </li>
         <li className='ml-10'>
-          <a href='#studio'>Studio</a>
+          <a href='#studio'>Offering</a>
+        </li>
+        <li className='ml-10'>
+          <a href='#schedule'>Schedule</a>
         </li>
        
         <li className='ml-10'>

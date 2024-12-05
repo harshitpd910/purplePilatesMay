@@ -20,13 +20,17 @@ const Hero = () => {
         <p
         className=' text-center sm:text-left leading-8 font-medium overflow-hidden'
         >
-          At Purple Pilates, we’re redefining fitness with a holistic approach that seamlessly blends Pilates with toning and strengthening into one wholesome workout. Our classes cater to all levels—from beginners to seasoned practitioners—allowing you to strengthen your body, mind, and spirit in every session.
 
-        <br /><br /><strong> Low Impact, Big Results:  </strong>  Our workouts are gentle on the joints yet powerful enough to sculpt, tone, and enhance flexibility. Each session, crafted by our expert Purple Pilates Athletics team, is designed to challenge, empower, and inspire you. We focus on toning and strengthening every muscle group, ensuring a balanced and comprehensive fitness experience.
+At Purple Pilates, we’re transforming the way you think about fitness. Our goal is to help you feel stronger, healthier, and more confident in your body through Pilates. Whether you’re a beginner or an advanced practitioner, our classes are thoughtfully designed to meet your unique needs. 
 
-         <br /><br /> Whether you’re looking to build core strength, improve posture, or increase mobility, we provide a supportive environment where you can thrive. Together, at Purple Pilates, we'll work toward a stronger, healthier, and more vibrant future.
-
-         <br />br Come see why Purple Pilates isn’t just a workout—it’s a way of life.
+ <br /><br />Why Choose Purple Pilates?
+<br /> •<b>	Whole-Body Harmony: </b> Strengthen your body, mind, and spirit in every session.
+<br /> •<b>	Strength Without Strain: </b> Gentle on your joints but effective enough to sculpt, tone, and improve flexibility.
+<br /> •<b>	Your Workout, Your Way: </b> From Reformer to Wunda Chair and Arc Barrel, we use specialized equipment to deliver a balanced and comprehensive personalized experience.
+<br /> •<b>	Community Focus: </b> We’re more than just a studio—we’re a supportive space where everyone can thrive.
+<br /><br />
+Discover how Purple Pilates is more than just a workout—it's a way of life. Join us as we work toward a stronger, healthier, and more vibrant future together!
+       
         </p>
         <a
         className='bg-bgp px-8 py-4 mt-2 rounded-lg self-center md:self-start  '

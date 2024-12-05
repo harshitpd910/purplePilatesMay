@@ -9,12 +9,13 @@ import g1 from '../assets/G1.jpeg'
 import g5 from '../assets/g5.webp'
 import g2 from '../assets/g2.jfif'
 import G3 from '../assets/G3.jpg'
+import S1 from '../assets/s1.jpeg'
 
 const Studio = () => {
   return (
     <studio
     id='studio'
-    className='py-10  w-full flex flex-col text-center sm:px-14 px-6 mb-10 '
+    className='md:pt-0 pt-10  w-full flex flex-col text-center sm:px-14 px-6 mb-10 '
     >
         <div
         className=' w-full flex justify-center items-center pb-20 '
@@ -239,7 +240,21 @@ const Studio = () => {
 
 
 
+    <div 
+    id='schedule'
+    className='w-full mt-20 flex flex-col gap-10'
+    >
+        <h1
+        className='font-secondry text-[32px] text-center'
+        >
+            Schedule for the Month
+        </h1>
+        <img src={S1} alt=""
+        className='w-full rounded-xl'
+        />
+       
 
+    </div>
            
 
 
@@ -247,7 +262,7 @@ const Studio = () => {
     
 
     <div
-        className='  flex sm:justify-between sm:items-start flex-col md:mt-28 mt-20 md:flex-row space-y-10 md:space-y-0 gap-x-10  '
+        className='  flex sm:justify-between sm:items-start flex-col md:mt-20 mt-20 md:flex-row space-y-10 md:space-y-0 gap-x-10  '
         >
           
 
@@ -288,7 +303,7 @@ const Studio = () => {
                     </li>
                 </ul>
                
-               <br /><br /> Give us a try! Your first trial class is just ₹999. Experience the difference today!
+               <br /> Give us a try! <br /> Your first trial class is just ₹999. Experience the difference today!
             </p>
             </div>
 
@@ -316,25 +331,26 @@ const Studio = () => {
             <p
             className='p-4 py-5 lg:px-4 text-left text-black'
             >
-                Collaborate with Us! <br /><br />
+                {/* Collaborate with Us! <br /><br /> */}
                 <ul
                 className='list-disc pl-5'
                 >
                     <li>
-                    Corporate Workshops: Enhance employee well-being with tailored sessions.
+                    Corporate Workshops: Enhance employee well-being with Pilates.
                     </li>
                     <li>
                     Exclusive Events: Add a unique fitness touch to your events or retreats.
                     </li>
                     <li>
-                    Franchise Opportunities: Be a part of our growing network and bring Purple Pilates to your community.
+                    Franchise Opportunities: Be a part of our growing network and to our community.
 
                     </li>
                 </ul>
-               <br /> Looking to bring innovative fitness experiences to your space or audience? Partner with Purple Pilates to create something extraordinary:
+               <br /> Partner with Purple Pilates to create something extraordinary!
 
 
-                Let’s join forces to promote health, fitness, and mindfulness. <br /><br />
+                {/* Let’s join forces to promote health, fitness, and mindfulness. <br /><br /> */}
+                <br /><br />
                  Reach out today to collaborate!
             </p>
             </div>
@@ -366,7 +382,7 @@ const Studio = () => {
                 className='list-disc pl-5'
                 >
                     <li>
-                    Passionate about fitness and movement? Step into a rewarding career with our Pilates and Aerial Yoga Teacher Training Programs:
+                    Passionate about fitness and movement? Step into a rewarding career with Pilates and Aerial Yoga Training Programs.
                     </li>
                     <li>
                     Comprehensive Training: Learn the fundamentals, advanced techniques, and teaching methodologies.

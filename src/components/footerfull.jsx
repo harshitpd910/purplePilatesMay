@@ -1,5 +1,6 @@
 import React from 'react'
 import pplogo2 from '../assets/pplogo2.png'
+import { MdLocationPin } from "react-icons/md";
 import {FaInstagram} from 'react-icons/fa'
 import { SiGmail } from "react-icons/si";
 import { SiGooglestreetview } from "react-icons/si";
@@ -21,33 +22,23 @@ const Footerfull = () => {
             <h1
             className='mb-6 self text-[24px]'
             >VISIT</h1>
-            <p
-            >
+            <a href="https://maps.app.goo.gl/ZDJ2ixs5BdGvdtVv9"
+                target="_blank"
+                rel="noopener noreferrer"
+            >   Address : <br />
                 Purple Pilates <br />
-                Qube Software Park
-                <br />Survey No.133/2,<br /> Behind Embassy Tech Village 
+                Incuspaze, Qube  
+                 Software Park
+                <br /> Behind Embassy Tech Village 
 
-               <br /> Outer Ring Road, Bengaluru</p>
+               <br /> Outer Ring Road, Bengaluru</a>
 
-               <a href="https://maps.app.goo.gl/ZDJ2ixs5BdGvdtVv9"
-            target="_blank"
-            rel="noopener noreferrer"
-      className='bg-white text-black    mt-10  rounded-lg self-center'
-      >
-      
-         
-        <SiGooglestreetview
-        size={50}
-        className='text-green-700'
-        />
-      
-
-      </a>
+    
         </div>
 
 
         <div
-        className='leading-10  flex flex-col  items-center md:items-start w-[300px]  md:mt-[-120px] '
+        className='leading-10  flex flex-col  items-center md:items-start w-[300px] md:mt-[-40px]   '
         >
             <h1
             className='mb-4 md:mb-6 text-[24px]'
@@ -68,6 +59,21 @@ const Footerfull = () => {
                 📞
                 </a>
                 </div>
+
+                <a href="https://maps.app.goo.gl/ZDJ2ixs5BdGvdtVv9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=' '
+                >
+      
+         
+                <MdLocationPin
+                size={28}
+                className='text-red-700 '
+                />
+      
+
+                </a>
 
                 <div>
                 <a 
@@ -102,7 +108,7 @@ const Footerfull = () => {
 
 
         <div
-    className=''
+    className='mt-6'
     >
     <p className="text-sm text-center mt-10 md:mt-0 ">&copy; {new Date().getFullYear()} PurplePilates. All rights reserved.</p>
     </div>

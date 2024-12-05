@@ -5,7 +5,7 @@ import pplogo2 from '../assets/pplogo2.png'
 const Navbar = () => {
   return (
     <nav 
-    className='h-[96px]  w-full bg-bgp text-white z-10 fixed text-[18px] flex justify-between items-center font-secondry px-14  '
+    className='h-[96px]  w-full bg-bgp text-white z-10 fixed text-[16px] flex justify-between items-center font-secondry px-14  '
     >   
         <img src={pplogo2} alt="" 
             className='h-[150%] mt-3 '
@@ -21,7 +21,11 @@ const Navbar = () => {
             About
           </a>
           <a href="#studio" className="text-inherit text-gray-700  font-medium">
-            Studio
+            Offerings
+          </a>
+         
+          <a href="#schedule" className="text-inherit text-gray-700  font-medium">
+            Schedule
           </a>
          
           <a href="#contact" className="text-inherit text-gray-700  font-medium">
