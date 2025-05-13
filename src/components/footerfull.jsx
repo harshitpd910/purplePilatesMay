@@ -1,5 +1,5 @@
 import React from 'react'
-import pplogo2 from '../assets/pplogo2.png'
+import pplogo2 from '../assets/pplogo5.png'
 import { MdLocationPin } from "react-icons/md";
 import {FaInstagram} from 'react-icons/fa'
 import { SiGmail } from "react-icons/si";
@@ -21,27 +21,26 @@ const Footerfull = () => {
         >
             <h1
             className='mb-6 self text-[24px]'
-            >VISIT</h1>
-            <a href="https://maps.app.goo.gl/ZDJ2ixs5BdGvdtVv9"
+            >VISIT US </h1>
+            <a href="https://www.google.com/maps/place/Purple+Pilates/@12.917434,77.635003,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1571f8913cbd:0x5043f26a8832460f!8m2!3d12.9174288!4d77.6375779!16s%2Fg%2F11x162mqy7?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
-            >   Address : <br />
-                Purple Pilates <br />
-                Incuspaze, Qube  
-                 Software Park
-                <br /> Behind Embassy Tech Village 
-
-               <br /> Outer Ring Road, Bengaluru</a>
-
+            >   
+                 
+                 Urban Vault, 5th floor, 13th main road,
+                 <br /> HSR layout (Koramangla 1st block),
+                 <br /> Sector 5, Bangalore 560034
+            
+            </a>
     
         </div>
 
 
         <div
-        className='leading-10  flex flex-col  items-center md:items-start w-[300px] md:mt-[-40px]   '
+        className='leading-10  flex flex-col  items-center md:items-start w-[300px] md:mt-[-40px]    '
         >
             <h1
-            className='mb-4 md:mb-6 text-[24px]'
+            className='mb-4  text-[24px]'
             >Contact</h1>
             <p>
             info@purplepilates.in <br />
@@ -49,7 +48,7 @@ const Footerfull = () => {
             +91 86 6073 7892
             </p>
             <div
-            className='flex justify-between items-center mt-8 w-[60%]  '
+            className='flex justify-between items-center mt-4 w-[60%]  '
             >
                 <div>
                 <a 
@@ -60,7 +59,7 @@ const Footerfull = () => {
                 </a>
                 </div>
 
-                <a href="https://maps.app.goo.gl/ZDJ2ixs5BdGvdtVv9"
+                <a href="https://www.google.com/maps/place/113,+13th+Main+Rd,+Sector+5,+1st+Block+Koramangala,+HSR+Layout+5th+Sector,+Bengaluru,+Karnataka+560034/@12.917423,77.6376175,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae148ebe5dad71:0xb2ee73ccf249338b!8m2!3d12.917423!4d77.6376175?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=' '

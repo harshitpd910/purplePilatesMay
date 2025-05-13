@@ -13,7 +13,7 @@ const ContactForm = () => {
     className='flex flex-col justify-center items-center sm:px-16 px-6 py-16  text-center  '
     >
         <h1 
-        className='font-secondry text-[36px] mb-8'
+        className='font-secondry text-[36px] mb-8 '
         >
             Contact Us
         </h1>

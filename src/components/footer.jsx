@@ -1,7 +1,8 @@
 import React from 'react'
 import {FaInstagram} from 'react-icons/fa'
 import { SiGmail } from "react-icons/si";
-import pplogo2 from '../assets/pplogo2.png'
+import pplogo2 from '../assets/pplogoNew.png'
+
 
 
 const Footer = () => {

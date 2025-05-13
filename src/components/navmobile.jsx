@@ -20,15 +20,24 @@ const NavMobile = () => {
         <li className='ml-10'>
           <a href='#home'>Home</a>
         </li>
+        <li className='ml-10'
+        
+        >
+          <a 
+           href="https://wa.me/918660737892"
+           target="_blank"
+           rel="noopener noreferrer"
+          >Book a Trial</a>
+        </li>
         <li className='ml-10'>
-          <a href='#about'>About</a>
+          <a href='#about'>Why Purple</a>
         </li>
         <li className='ml-10'>
           <a href='#studio'>Offering</a>
         </li>
-        <li className='ml-10'>
+        {/* <li className='ml-10'>
           <a href='#schedule'>Schedule</a>
-        </li>
+        </li> */}
        
         <li className='ml-10'>
           <a href='#contact'>Contact</a>

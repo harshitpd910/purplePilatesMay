@@ -1,5 +1,5 @@
 import React from 'react'
-import fn1 from '../assets/fn1.webp'
+import fn1 from '../assets/fnpn.jpg'
 import g5 from '../assets/g5.webp'
 import g2 from '../assets/g2.jfif'
 import G3 from '../assets/G3.jpg'
@@ -18,7 +18,7 @@ const Note = () => {
         className='md:w-[50%] w-full flex flex-col justify-center items-center   py-10 md:pr-10   mt-16 md:mt-0'
         >
             <h1
-            className='font-secondry text-[36px] pb-10 '
+            className='font-secondry text-[36px] pb-10 text-bgp'
             >
                 Founder's Note
             </h1>
@@ -41,7 +41,7 @@ const Note = () => {
       className='md:w-[50%] w-full flex justify-center items-center pl-  '
       >
         <img src={fn1} alt="" loading='lazy'
-        className='w-full aspect-square  shadow-2xl border-8 rounded-2xl'
+        className='w-full   shadow-2xl border-8 rounded-2xl'
         />
 
 

@@ -19,7 +19,7 @@ function App() {
   return (
     <>
   <a
-      href="https://wa.me/919620053702"
+      href="https://wa.me/918660737892"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-20 right-10 bg-green-500 p-3 rounded-full  hover:bg-green-600"

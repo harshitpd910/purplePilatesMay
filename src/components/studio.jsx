@@ -1,15 +1,18 @@
 import React from 'react'
-import vid1 from '../assets/vid1.mp4'
 import bgI2 from '../assets/bgI2.jpg'
 import { TiTick } from "react-icons/ti";
-import c1 from '../assets/c1.jpeg'
+import c1 from '../assets/aypn2.png'
 import c2 from '../assets/c2.jpeg'
 import c3 from '../assets/c3.jpeg'
 import g1 from '../assets/G1.jpeg'
-import g5 from '../assets/g5.webp'
-import g2 from '../assets/g2.jfif'
-import G3 from '../assets/G3.jpg'
+import g2 from '../assets/bytn1.jpg'
+// import g2 from '../assets/g2.jfif'
+import g5 from '../assets/batn.jpg'
+
+import G3 from '../assets/cwun1.jpg'
 import S1 from '../assets/s1.jpeg'
+import NI1 from '../assets/pin2.jpg'
+import NI2 from '../assets/ypn3.jpg'
 
 const Studio = () => {
   return (
@@ -24,7 +27,7 @@ const Studio = () => {
             className=' flex flex-col justify-center items-center  '
             >
             <h1
-            className='font-secondry text-[32px]  '
+            className='font-secondry text-[32px] text-bgp '
             >OUR OFFERINGS</h1>
            
             </div>
@@ -41,7 +44,7 @@ const Studio = () => {
                 <div
                 className='sm:w-[50%] w-[100%]   flex justify-center sm:block'
                 >
-                    <img src={c2} alt="" loading='lazy'
+                    <img src={NI1} alt="" loading='lazy'
                     className='  sm:w-[100%] w-[100%]  sm:mr-[16px] rounded-lg '
                     />
 
@@ -53,14 +56,15 @@ const Studio = () => {
                     className='  ml-[16px]  sm:px-0'
                     >
                     <h1
-                    className=' text-center sm:text-left font-secondry text-[36px]'
-                    >Pilates </h1>
+                    className=' text-center sm:text-left font-secondry text-[36px] text-bgp'
+                    >Reformer Pilates </h1>
 
                     <br /><br />
                     <p
                     className=' text-center sm:text-left'
                     > 
-                    Strengthen your core, improve posture, and boost flexibility with low-impact Pilates sessions that focus on alignment and pain-free movement. Designed for all fitness levels, these workouts emphasize balance and control, helping you stay centered and resilient. Achieve a revitalized, aligned body that supports everyday activities with ease.
+                    Strengthen your core, improve posture, and boost flexibility with low-impact Pilates sessions that focus on alignment and pain-free movement. <br /> Designed for all fitness levels, emphasizing balance and control, helping you stay centered and having an aligned body that supports everyday activities with ease.
+
                    <br /><br /> <div
                    className='flex items-center gap-4'
                    >
@@ -92,7 +96,15 @@ const Studio = () => {
                     <TiTick
                     className='text-green-600 bg-white rounded-xl '
                     />
-                    Boosts Postural Alignment
+                    Builds muscles you never knew existed
+                    </div> 
+                   <div
+                   className='flex items-center gap-4'
+                   >
+                    <TiTick
+                    className='text-green-600 bg-white rounded-xl '
+                    />
+                    Reduces stress through controlled movement, mindfulness, and <br /> physical tension release
                     </div> 
                        
                      </p>
@@ -115,14 +127,18 @@ const Studio = () => {
                     className='  ml-[16px]  sm:px-0'
                     >
                     <h1
-                    className=' text-center sm:text-left font-secondry text-[36px]'
-                    >Aeriel yoga </h1>
+                    className=' text-center sm:text-left font-secondry text-[36px] text-bgp'
+                    >Aeriel Yoga </h1>
 
                     <br /><br />
                     <p
                     className=' text-center sm:text-left'
                     > 
-                    Experience the healing power of yoga to reduce stress, improve flexibility, and enhance mental clarity. These mindful flows promote better sleep and build a stronger body, fostering relaxation and resilience. Perfect for all levels, each session supports a balanced mind and body, bringing calm and strength to daily life.
+                    Experience the healing power of Aerial yoga to reduce stress, improve flexibility, and enhance mental clarity. These mindful flows promote better sleep and build a stronger body, fostering relaxation and therapeutic form of movement.
+                    <br />
+                    Anti-Gravity Aerial Yoga is a fusion workout that uses a hammock or aerial silk to support your body through various yoga poses—sometimes fully suspended, sometimes partially grounded.
+                    <br />
+                    Perfect for all levels, each session supports a balanced mind and body, bringing calm and strength to daily life
                    <br /><br />
                    <div
                    className='flex items-center gap-4'
@@ -158,6 +174,15 @@ const Studio = () => {
                     />
                     Boosts Balance and Coordination
                     </div> 
+                   <div
+                   className='flex text-left items-center gap-4'
+                   >
+                    <TiTick
+                    className='text-green-600 bg-white rounded-xl '
+                    />
+                    Therapeutic form of Movement
+
+                    </div> 
                    
                      
                      
@@ -185,7 +210,7 @@ const Studio = () => {
                 <div
                 className='sm:w-[50%] w-[100%]   flex justify-center sm:block'
                 >
-                    <img src={c3} alt="" loading='lazy'
+                    <img src={NI2} alt="" loading='lazy'
                     className='  sm:w-[100%] w-[100%]  sm:mr-[16px] rounded-lg '
                     />
 
@@ -197,21 +222,25 @@ const Studio = () => {
                     className='  ml-[16px]  sm:px-0'
                     >
                     <h1
-                    className=' text-center sm:text-left font-secondry text-[36px]'
-                    >Yoga</h1>
+                    className=' text-center sm:text-left font-secondry text-[36px] text-bgp'
+                    >Core Yoga</h1>
 
                     <br /><br />
                     <p
                     className=' text-center sm:text-left'
                     > 
-                    Relieve stress, increase flexibility, and sharpen mental clarity through mindful yoga flows that harness yoga's healing power. Perfect for all levels, each practice brings calm and strength, enhancing both mind and body for daily life.
+                    Iyengar Wall Yoga is a therapeutic and alignment-focused practice that uses wall ropes and props to support the body, enhance posture, deepen stretches, and safely explore inversions and challenging poses with precision and control. 
+                    <br />
+                    Wheel Yoga is a dynamic practice that uses a yoga wheel—a circular prop—to deepen backbends, improve flexibility, build core strength, and enhance balance while offering support and opening tight areas like the chest, shoulders, and hips.
+                    <br />
+                    
                     <br /><br /> <div
                    className='flex items-center gap-4'
                    >
                     <TiTick
                     className='text-green-600 bg-white rounded-xl '
                     />
-                    Deepens Stretches
+                    Stress Relief – Mindful movement activate the parasympathetic <br /> nervous system, helping calm the mind and reduce anxiety
                     </div> 
                    <div
                    className='flex items-center gap-4'
@@ -219,16 +248,19 @@ const Studio = () => {
                     <TiTick
                     className='text-green-600 bg-white rounded-xl '
                     />
-                    Builds Core Strength
+                    Emotional Release – Opening the heart and chest can help release <br /> stored emotions and promote emotional balance.
+
 
                     </div> 
+                  
                    <div
                    className='flex items-center gap-4'
                    >
                     <TiTick
                     className='text-green-600 bg-white rounded-xl '
                     />
-                    Reduces Joint Strain
+                    Deep Stretching for Mental Calm – The gentle intensity helps quiet <br /> racing thoughts and promotes a meditative state.
+
                     </div> 
                      </p>
                     </div>
@@ -240,7 +272,7 @@ const Studio = () => {
 
 
 
-    <div 
+    {/* <div 
     id='schedule'
     className='w-full mt-20 flex flex-col gap-10'
     >
@@ -254,7 +286,7 @@ const Studio = () => {
         />
        
 
-    </div>
+    </div> */}
            
 
 
@@ -268,8 +300,11 @@ const Studio = () => {
 
 
 
-            <div
-            className='text-purple-950  md:w-[275px] lg:w-[375px] border border-8  shadow-lg '
+            <a
+             href="https://wa.me/918660737892"
+             target="_blank"
+             rel="noopener noreferrer"
+            className='text-bgp  md:w-[275px] lg:w-[375px] border border-8  shadow-lg '
             >
             <div
             className='h-[192px]'
@@ -282,7 +317,7 @@ const Studio = () => {
 
             <h1
             className='p-4 font-secondry font-bold text-[24px] '
-            > Try Us</h1>
+            > Book Your Trial</h1>
             
             <p
             className='p-4 py-5 lg:px-4  text-left text-black'
@@ -293,26 +328,27 @@ const Studio = () => {
                 className='list-disc pl-5'
                 >
                     <li>
-                    Private 1:1 Sessions for personalized attention.
+                   <b> Private 1:1 Sessions</b> for personalized attention.
                     </li>
                     <li>
-                    Duet Sessions to work out with a partner.
+                   <b> Duet Sessions</b> to work out with a partner.
                     </li>
                     <li>
-                    Group Sessions for a dynamic, community experience.
+                   <b> Group Sessions</b> for a dynamic, community experience.
                     </li>
                 </ul>
                
-               <br /> Give us a try! <br /> Your first trial class is just ₹999. Experience the difference today!
+               <br /><br /> Try Us Now: <br /> Your first trial class is just ₹1199. <br />
+
             </p>
-            </div>
+            </a>
 
 
 
            
 
             <div
-            className='text-purple-950  md:w-[275px] lg:w-[375px] border-8 shadow-lg'
+            className='text-bgp  md:w-[275px] lg:w-[375px] border-8 shadow-lg'
             >
             <div
             className='h-[192px]'
@@ -336,13 +372,13 @@ const Studio = () => {
                 className='list-disc pl-5'
                 >
                     <li>
-                    Corporate Workshops: Enhance employee well-being with Pilates.
+                   <b> Corporate Workshops:</b> Enhance employee well-being with Pilates.
                     </li>
                     <li>
-                    Exclusive Events: Add a unique fitness touch to your events or retreats.
+                   <b> Exclusive Events:</b> Add a unique fitness touch to your events or retreats.
                     </li>
                     <li>
-                    Franchise Opportunities: Be a part of our growing network and to our community.
+                   <b> Franchise Opportunities:</b> Be a part of our growing network and to our community.
 
                     </li>
                 </ul>
@@ -351,7 +387,7 @@ const Studio = () => {
 
                 {/* Let’s join forces to promote health, fitness, and mindfulness. <br /><br /> */}
                 <br /><br />
-                 Reach out today to collaborate!
+                 {/* Reach out today to collaborate! */}
             </p>
             </div>
 
@@ -359,7 +395,7 @@ const Studio = () => {
 
 
             <div
-            className='text-purple-950  md:w-[275px] lg:w-[375px] border-8 shadow-lg'
+            className='text-bgp  md:w-[275px] lg:w-[375px] border-8 shadow-lg'
             >
             <div
             className='h-[192px]'
@@ -382,13 +418,13 @@ const Studio = () => {
                 className='list-disc pl-5'
                 >
                     <li>
-                    Passionate about fitness and movement? Step into a rewarding career with Pilates and Aerial Yoga Training Programs.
+                   <b> Passionate About Fitness :</b> Step into a rewarding career with Pilates and Aerial Yoga Training Programs and get certified.
+                    </li> 
+                    <li>
+                   <b> Comprehensive Training: </b>Learn the fundamentals, advanced techniques, and teaching methodologies.
                     </li>
                     <li>
-                    Comprehensive Training: Learn the fundamentals, advanced techniques, and teaching methodologies.
-                    </li>
-                    <li>
-                    Hands-On Experience: Practice under expert guidance to build confidence and skill.
+                   <b> Hands-On Experience:</b> Practice under expert guidance to build confidence and skill.
                     </li>
                 </ul>
               
