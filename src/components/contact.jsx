@@ -10,7 +10,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_iko54r7', 'template_t6pzush', form.current, {
+      .sendForm('service_tb7b7ok', 'template_t6pzush', form.current, {
         publicKey: 'Tsqx8vJpuF0J6Pg1H',
       })
       .then(
@@ -22,6 +22,11 @@ const Contact = () => {
         },
       );
       form.current.reset();
+
+      alert(`
+      Got your query! We'll roll back to you within 24 hours!
+      For quicker replies, WhatsApp us just below 👇
+      `);
   };
 
 

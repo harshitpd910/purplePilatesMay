@@ -338,7 +338,7 @@ const Studio = () => {
                     </li>
                 </ul>
                
-               <br /><br /> Try Us Now: <br /> Your first trial class is just ₹1199. <br />
+               <br /><br /> Try Us Now: <br /> Your first trial class is just ₹1299. <br />
 
             </p>
             </a>
